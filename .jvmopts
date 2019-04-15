@@ -1,0 +1,5 @@
+-Djava.library.path=/Applications/NetLogo_6.1.0-RC2/JRE/Contents/Home/jre/lib/
+-Xms2M
+-Xmx2048M
+-Xss2M
+-XX:MaxMetaspaceSize=1024M
