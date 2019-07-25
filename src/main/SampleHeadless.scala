@@ -16,9 +16,8 @@ object SampleHeadless {
     workspace.command( "setup" )
 
     var i = 0
-    var isPaused = false
     while ( i < 500 ) {
-      if ( !isPaused ) { workspace.command( "go" ) }
+      workspace.command( "go" )
       i = i + 1
     }
 
