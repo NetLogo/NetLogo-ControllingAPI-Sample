@@ -9,7 +9,7 @@ object SampleHeadless {
   def main( args: Array[String] ) {
 
     val workspace = HeadlessWorkspace.newInstance
-    workspace.open( "/Applications/NetLogo 6.0.4/models/Sample Models/Earth Science/Fire.nlogo" )
+    workspace.open( "/Applications/NetLogo 6.1.0/models/Sample Models/Earth Science/Fire.nlogo" )
 
     workspace.command( "set density 62" )
     workspace.command( "random-seed 0" )
