@@ -6,4 +6,4 @@ You can check dependency setup in `build.sbt`.  You can see an example of using 
 
 To compile you'll need a recent version of SBT installed and available on your path.  It should handle grabbing the exact version from `project/build.properties` when you run it in the repo.
 
-Once you have an SBT console running, you can compile with `compile` and run the samples with `runMain SampleHeadless` or `runMain SampleGUI`.
+Once you have an SBT console running, you can compile with `compile` and run the samples with `runMain org.nlogo.controllingapisample.SampleHeadless` or `runMain org.nlogo.controllingapisample.SampleGUI`.
