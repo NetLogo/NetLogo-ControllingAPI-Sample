@@ -1,6 +1,9 @@
 version := "0.0.1"
 isSnapshot := true
 
+fork in run := true
+cancelable in Global := true
+
 scalaVersion := "2.12.8"
 scalaSource in Test := baseDirectory.value / "src" / "test"
 scalaSource in Compile := baseDirectory.value / "src" / "main"
