@@ -10,7 +10,7 @@ object SampleGUI {
 
     App.main( args )
     wait {
-      App.app.open( "/Applications/NetLogo 6.1.0/models/Sample Models/Earth Science/Fire.nlogo" )
+      App.app.open( "../models/Sample Models/Earth Science/Fire.nlogo" )
     }
     App.app.command( "set density 62" )
     App.app.command( "random-seed 0" )
